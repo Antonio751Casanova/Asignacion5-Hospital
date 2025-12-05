@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "6736fff4-19ec-404e-b033-078933cf9145",
+		"name": "Asigancion5-Hospital",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48157675",
+		"_collection_link": "https://casanovatorresjuanantonio-1116761.postman.co/workspace/Juan-Antonio-Casanova-Torres's-~943e0803-f76f-4f11-8b87-df0b7a45eee4/collection/48157675-6736fff4-19ec-404e-b033-078933cf9145?action=share&source=collection_link&creator=48157675"
+	},
+	"item": [
+		{
+			"name": "Get Request",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/specialties",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"specialties"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Request",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Oncología\",\r\n    \"description\": \"Tratamiento del cáncer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/specialties",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"specialties"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
